@@ -11,3 +11,69 @@ header{
     text-align:center;
     padding:20px;
 }
+
+nav{
+    background-color:#0055aa;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+main{
+    padding:20px;
+}
+
+section{
+    margin-bottom:20px;
+}
+
+form{
+    width:400px;
+    margin:auto;
+    padding:20px;
+    border:2px solid black;
+    background-color:white;
+}
+
+label{
+    font-weight:bold;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+input[type="radio"]{
+    width:auto;
+}
+
+input[type="submit"]{
+    background-color:#003366;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background-color:green;
+}
+
+footer{
+    background-color:#003366;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
