@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <title>Student Service Portal</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+ <h1>Student Service Portal</h1>
+ <p>Submit your student service requests quickly and easily.</p>
+
+</header>
+
+<nav>
+ <a href="#">Home</a>
+ <a href="#">Services</a>
+ <a href="#">Contact</a>
+</nav>
+
+<main>
+
+<section>
+    <h2>Available Services</h2>
+
+    <p>
+        Students can request transcripts, report ID card issues,
+        and send general inquiries through this portal.
+    </p>
+</section>
+
+<section>
+
+<h2>Service Request Form</h2>
+
+<form>
+
+<label>Student Name</label><br>
+<input type="text" required>
+
+<br><br>
+
+<label>Student ID</label><br>
+<input type="text" maxlength="10" required>
+
+<br><br>
+
+<label>Email</label><br>
+<input type="email" required>
+
+<br><br>
+
+<label>Service Type</label><br>
+
+<select>
+    <option>Transcript Request</option>
+    <option>ID Card Issue</option>
+    <option>General Inquiry</option>
+</select>
+
+<br><br>
+
+<label>Urgency Level</label><br>
+
+<input type="radio" name="urgency"> Low
+
+<input type="radio" name="urgency"> Medium
+
+<input type="radio" name="urgency"> High
+
+<br><br>
+
+<label>Additional Details</label><br>
+
+<textarea rows="5" cols="40"></textarea>
+
+<br><br>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</section>
+
+</main>
+
+<footer> 
+    <p> 2026 student service portal, All right reserved.</p>
+</footer>
+</body>
+</html>
+
